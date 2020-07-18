@@ -72,4 +72,4 @@ For POST and PATCH, pass required parameters as JSON in request body.
 
 #### Author: Subham Das.
 
-
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
