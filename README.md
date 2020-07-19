@@ -39,7 +39,7 @@ node server.js
 npm i nodemon
 nodemon server.js
 ```
-- That's it. Now make any changes you require for your own project and handle the front-end accordingly. The routes are listed below.
+- That's it! Now make any changes you require for your own project and handle the front-end accordingly. The routes are listed below.
 
 --------------------------------------------------------------------------------------------------------------
 
