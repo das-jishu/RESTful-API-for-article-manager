@@ -5,9 +5,43 @@ A RESTful API made using NodeJS (Express) and MongoDB (mongoose) to manage a pla
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### NOTE: 
 
-###### This repo contains only the backend implementation of the project. Users are free to develop their own frontend using this. Follow the readme to know the routes and their implementation.
+###### This repo contains only the backend implementation of the project. Users are free to develop their own frontend using this. Follow the Readme to know the routes and their implementation.
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+## HOW TO
+
+- Fork the repository and clone it.
+- Head over to MongoDB Atlas and create a free cluster.
+- Add a *config.env* to store all the environment variables.
+###### List of environment variables to be written:
+- DATABASE
+- DATABASE_PASSWORD
+- PORT
+- NODE_ENV
+- JWT_SECRET
+- JWT_EXPIRES_IN
+- JWT_COOKIE_EXPIRES_IN
+- EMAIL_USERNAME
+- EMAIL_PASSWORD
+- EMAIL_HOST
+- EMAIL_PORT
+
+##### NOTE: 
+- I have used smtp.google.com to queue and send mails but feel free to use any other smtp you might prefer. 
+- Replace the DATABASE variable with your own MongoDB link and the DATABASE_PASSWORD with your password.
+- Open the terminal and run the following command:
+```
+node server.js
+```
+- You can also use nodemon to run the app. If you don't have nodemon installed, follow this:
+```
+npm i nodemon
+nodemon server.js
+```
+- That's it. Now make any changes you require for your own project and handle the front-end accordingly. The routes are listed below.
+
+--------------------------------------------------------------------------------------------------------------
 
 ### ROUTES:
 
