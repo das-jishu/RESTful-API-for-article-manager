@@ -2,6 +2,8 @@
 
 A RESTful API made using NodeJS (Express) and MongoDB (mongoose) to manage a platform where users (or authors) can signup and collaborate on different articles, leave reviews and organize their work. 
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### NOTE: 
 
@@ -106,4 +108,4 @@ For POST and PATCH, pass required parameters as JSON in request body.
 
 #### Author: Subham Das.
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
